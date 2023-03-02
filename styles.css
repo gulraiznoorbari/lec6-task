@@ -1,21 +1,4 @@
 
-/*To add this stylesheet to your HTML document, here's what you need to do::after
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>My Page</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <!-- Your HTML content here -->
-  </body>
-</html>
-
-*/
-
-
 
 h1 {
     font-size: 3rem;
@@ -68,9 +51,252 @@ p {
 
 }
 
-/* Hammad zaib */
-footer{
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.container {
   display: flex;
   flex-wrap: wrap;
 }
-/* Hammad zaib */
+
+.col-md-4 {
+  flex: 1;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.fa {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #333;
+  padding: 10px;
+}
+
+#customer-reviews {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+#customer-reviews h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#customer-reviews ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#customer-reviews li {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#customer-reviews li h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.star-rating {
+  font-size: 24px;
+  color: #f4d03f;
+  margin-bottom: 10px;
+}
+
+.star-rating span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.star-rating:before {
+  content: '\2605';
+}
+
+.star-rating[aria-label="1 out of 5 stars"]:before {
+  content: '\2606 \2606 \2606 \2606 \2606';
+}
+
+.star-rating[aria-label="2 out of 5 stars"]:before {
+  content: '\2605 \2606 \2606 \2606 \2606';
+}
+
+.star-rating[aria-label="3 out of 5 stars"]:before {
+  content: '\2605 \2605 \2606 \2606 \2606';
+}
+
+.star-rating[aria-label="4 out of 5 stars"]:before {
+  content: '\2605 \2605 \2605 \2606 \2606';
+}
+
+.star-rating[aria-label="5 out of 5 stars"]:before {
+  content: '\2605 \2605 \2605 \2605 \2606';
+}
+
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin: 0;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  width: 200px;
+}
+
+.product-title {
+  margin-top: 0;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-description {
+  margin-bottom: 0;
+}
+
+.slider img {
+  max-width: 1000px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.slider img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px #ccc;
+  border-radius: 5px;
+}
+
+.products h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.products p {
+  margin-top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  padding: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.search input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.menu li a:hover {
+  background-color: #eee;
+}
+
+.content {
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p.subheading {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #FFB400;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta:hover {
+  background-color: #D99700;
+}
