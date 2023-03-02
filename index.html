@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <body>
-    <h1>My First Webpage</h1>
-    <p>Hello world</p>
+    <link rel="stylesheet" href="styles.css">
+<nav>
+    <div>
+        <img src="./images/logo.png" alt="Logo">
+    </div>
+    <div>
+        <input type="text" name="" id="" placeholder="Search">
+    </div>
+    <ul>
+        <li>Mens Fashion</li>
+        <li>Womens Fashion</li>
+        <li>Home & Lifestyle</li>
+        <li>Electronics</li>
+    </ul>
+
+</nav>
 
     <section class="hero">
         <div class="slider">
@@ -21,6 +36,78 @@
           </div>
         </div>
       </section>
-    
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Contact Us</h3>
+          <p>
+            Address: Street Address<br />
+            City, State/Province<br />
+            Zip/Postal Code
+          </p>
+          <p>
+            Phone: +1-XXX-XXX-XXXX<br />
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3>About Us</h3>
+        </div>
+        <div class="col-md-4">
+          <h3>Get In Touch</h3>
+          <ul class="social-icons">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <section id="customer-reviews">
+    <h2>Customer Reviews</h2>
+    <ul>
+      <li itemscope itemtype="https://schema.org/Review">
+        <h3 itemprop="author">John Smith</h3>
+        <div class="star-rating" aria-label="5 out of 5 stars" aria-valuemin="0" aria-valuemax="5" aria-valuenow="5" tabindex="0">
+          <span>★★★★★</span>
+        </div>
+        <blockquote itemprop="reviewBody">
+          <p>"I absolutely love this product! It's made a huge difference in my life and I would recommend it to anyone."</p>
+        </blockquote>
+      </li>
+      <li itemscope itemtype="https://schema.org/Review">
+        <h3 itemprop="author">Jane Doe</h3>
+        <div class="star-rating" aria-label="4 out of 5 stars" aria-valuemin="0" aria-valuemax="5" aria-valuenow="4" tabindex="0">
+          <span>★★★★</span>
+        </div>
+        <blockquote itemprop="reviewBody">
+          <p>"Overall, I'm very happy with my purchase. The product works well and the customer service was great."</p>
+        </blockquote>
+      </li>
+      <li itemscope itemtype="https://schema.org/Review">
+        <h3 itemprop="author">Bob Johnson</h3>
+        <div class="star-rating" aria-label="3 out of 5 stars" aria-valuemin="0" aria-valuemax="5" aria-valuenow="3" tabindex="0">
+          <span>★★★</span>
+        </div>
+        <blockquote itemprop="reviewBody">
+          <p>"The product was okay, but it wasn't quite what I was expecting. I think there are better options out there."</p>
+        </blockquote>
+      </li>
+    </ul>
+  </section>
+
 </body>
 </html>
