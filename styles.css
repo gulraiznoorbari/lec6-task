@@ -1,0 +1,69 @@
+
+/*To add this stylesheet to your HTML document, here's what you need to do::after
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <!-- Your HTML content here -->
+  </body>
+</html>
+
+*/
+
+
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #333;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #333;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #333;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+
+p {
+   font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: justify;
+  color: #666;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
